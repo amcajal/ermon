@@ -62,7 +62,8 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 ### Using Ermon
 
 *Once you double-clicked in the application icon, and the main window appeared...*
-![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/main.png)
+
+![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/main.jpg)
 
 * #### Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/Images/play.jpg) to start the clocks:
 The "Next Event" clock will count remaining seconds to the start of the next event, while "Worked Time" clock will count the seconds that the application is scheduling and deploying these events. You can see a summary of the next event or events in the "Description" field.

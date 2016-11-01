@@ -1,0 +1,4 @@
+Ermon_Configuration
+DO NOT MODIFY THIS FILE MANUALLY
+Short Pomodoro#Short Pomodoro! Stand up and walk a little, drink water, take a book and read it, refresh your eyes...#1500#300#false#0#25#0
+Long Pomodoro#Long Pomodoro! Procastination time! Have fun and relax!#6000#900#false#1#40#0

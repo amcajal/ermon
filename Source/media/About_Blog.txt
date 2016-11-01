@@ -1,0 +1,18 @@
+*********************************			
+GLIMPSE 23	        
+                               
+Miscellaneous Computer Science Projects	
+*********************************
+
+     glimpse-23.blogspot.com
+
+=================================
+
+GLIMPSE 23 is a blog dedicated to the development of 
+computer science projects of any kind, like:
+
+- ERMON, simple application to perform healthy habits 
+while working with computers.
+
+- LoL ASSEMBLER, the tool for strategic picks in League of Legends, 
+the most successful MOBA ever.

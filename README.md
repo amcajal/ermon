@@ -62,7 +62,7 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 ### Using Ermon
 
 *Once you double-clicked in the application icon, and the main window appeared...*
-![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png)
+![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/main.png)
 
 * #### Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/Images/play.jpg) to start the clocks:
 The "Next Event" clock will count remaining seconds to the start of the next event, while "Worked Time" clock will count the seconds that the application is scheduling and deploying these events. You can see a summary of the next event or events in the "Description" field.
@@ -156,12 +156,12 @@ Finally, press Save button to save the events in a text file. You can browse in 
 
 *In any moment...*
 
-* #### Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/Images/habits.png) to check information about current loaded events, default set of events, or custom events.
+* #### Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/Images/habits.jpg) to check information about current loaded events, default set of events, or custom events.
 Select in the combo box the required information, and then press Show button.
 
 ![habits_1.png](https://github.com/amcajal/ermon/blob/master/Images/habits_1.jpg)
 
-* #### Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/Images/about.png) to check miscellaneous information about the application and its environment.
+* #### Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/Images/about.jpg) to check miscellaneous information about the application and its environment.
 Select in the combo box the required information, and then press the Show button.
 
 ![habits_2.png](https://github.com/amcajal/ermon/blob/master/Images/habits_2.jpg)

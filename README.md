@@ -1,4 +1,4 @@
-![ermon_logo](https://github.com/amcajal/ermon/blob/master/images/readme_ermon_logo.png)
+![ermon_logo](https://github.com/amcajal/ermon/blob/master/Images/readme_ermon_logo.png)
 
 ### Overview
 
@@ -14,13 +14,13 @@ Ermon main features are:
 
 And of course, completely FREE.
 
-![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png)
+![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png)
 
 ---
 
-[![user_section_logo.png](https://github.com/amcajal/ermon/blob/master/images/user_section_logo.png)](#user-section-index)
+[![user_section_logo.png](https://github.com/amcajal/ermon/blob/master/Images/user_section_logo.png)](#user-section-index)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![dev_section_logo.png](https://github.com/amcajal/ermon/blob/master/images/dev_section_logo.png)](#developer-section-index)
+[![dev_section_logo.png](https://github.com/amcajal/ermon/blob/master/Images/dev_section_logo.png)](#developer-section-index)
 
 ---
 
@@ -62,59 +62,59 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 ### Using Ermon
 
 *Once you double-clicked in the application icon, and the main window appeared...*
-![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png)
+![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png)
 
-* #### Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to start the clocks:
+* #### Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to start the clocks:
 The "Next Event" clock will count remaining seconds to the start of the next event, while "Worked Time" clock will count the seconds that the application is scheduling and deploying these events. You can see a summary of the next event or events in the "Description" field.
 
-![play_1.png](https://github.com/amcajal/ermon/blob/master/images/play_1.jpg)
+![play_1.png](https://github.com/amcajal/ermon/blob/master/Images/play_1.jpg)
 
 When the "Next Event" clock reachs 0, a pop-up will appear with the information of the exercise or event you shall perform ("Next Event" clock color will change to blue too). 
 
-![play_2.png](https://github.com/amcajal/ermon/blob/master/images/play_2.jpg)
-![play_3.png](https://github.com/amcajal/ermon/blob/master/images/play_3.jpg)
+![play_2.png](https://github.com/amcajal/ermon/blob/master/Images/play_2.jpg)
+![play_3.png](https://github.com/amcajal/ermon/blob/master/Images/play_3.jpg)
 
 There are 2 types of events: Periodical ones, and Single Execution ones. Periodical ones repeats constantly, while Single Execution ones will be launched at a certain time of the day (you can track it with the "System Time" clock). For example, "Refresh your eyes" can be a Periodical Event, because you shall perform it every 20 minutes, while "Take your medicine" its a Single Execution one, because you shall perform it at 12:30 each day.
 
 Dont worry about the Single Execution events: the application will warn you about them no matter if the clocks are running or paused.
 
-* #### Press Pause Button ![pause.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to pause the clocks:
+* #### Press Pause Button ![pause.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to pause the clocks:
 The "Next Event" clock will be paused, keeping its value. "Worked Time" will pause or not, depends on the configuration applied (explained later).
 
-![pause_1.png](https://github.com/amcajal/ermon/blob/master/images/pause_1.jpg)
+![pause_1.png](https://github.com/amcajal/ermon/blob/master/Images/pause_1.jpg)
 
 Single Execution events will be deployed normally, even with the clocks paused. Just press Play Button when you want them back to work.
 
-* #### Press Stop Button ![stop.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to stop the clocks:
+* #### Press Stop Button ![stop.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to stop the clocks:
 All clocks will stop, and its values will be erasted. Application will return to its initial state. In the Text Area you will see how many time the application has been working, in case its value is usefull for you.
 
-![stop_1.png](https://github.com/amcajal/ermon/blob/master/images/stop_1.jpg)
+![stop_1.png](https://github.com/amcajal/ermon/blob/master/Images/stop_1.jpg)
 
 
 *While the clocks are running...*
 
-* #### Press See Button ![see.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to check information about the next events to be deployed:
+* #### Press See Button ![see.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to check information about the next events to be deployed:
 The pop-up with the information of the events will appear, allowing you to check what are the next events to perform. The pop-up has two tabs, one for Periodical Execution events information, and another for Single Execution events information. Check whatever you want!
 
-![see_1.png](https://github.com/amcajal/ermon/blob/master/images/see_1.jpg)
+![see_1.png](https://github.com/amcajal/ermon/blob/master/Images/see_1.jpg)
 
-* #### Press Force Button ![force.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to force an event to start, or ignore the current one.
+* #### Press Force Button ![force.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to force an event to start, or ignore the current one.
 You need an event to start inmediately? Press Force button, and it will start right now!
 You need to end an event inmediately? Press Force button, and the event in progress will end right now!
 
-![force_1.png](https://github.com/amcajal/ermon/blob/master/images/force_1.jpg)
+![force_1.png](https://github.com/amcajal/ermon/blob/master/Images/force_1.jpg)
 
 Use this button to control directly the flux of events. Note that only Periodical Execution events can be affected by this. Single Execution events cannot be forced or ignored (they have a certain starting time).
 
-* #### Press Add Button ![add.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to include a new event to the actual list of events being scheduled.
+* #### Press Add Button ![add.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to include a new event to the actual list of events being scheduled.
 You forgot to add an event to the list of currently scheduled, or need to include a new one in order to not forgot it (for example, "Call HHRR at 15:00")? Press Add button, create it, and add it with no problems. Creation Window will be explained later.
 
 *While the clocks are stopped...*
 
-* #### Press Configuration Button ![configuration.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to expand the configuration section.
+* #### Press Configuration Button ![configuration.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to expand the configuration section.
 Here you can configure several aspects of Ermon.
 
-![config_1.png](https://github.com/amcajal/ermon/blob/master/images/config_1.jpg)
+![config_1.png](https://github.com/amcajal/ermon/blob/master/Images/config_1.jpg)
 
 *In the configuration section...*
 
@@ -123,7 +123,7 @@ By selecting or deselecting the options you can choose if the pop-ups shall appe
 
 Press Apply Button to make the changes effective, or press Reset to return all options to its initial values. You will see a confirmation message in blue.
 
-![config_2.png](https://github.com/amcajal/ermon/blob/master/images/config_2.jpg)
+![config_2.png](https://github.com/amcajal/ermon/blob/master/Images/config_2.jpg)
 
 
 * #### Load, create or modify events with the options of the right section.
@@ -134,37 +134,37 @@ Here you can do several operation:
 
 A message of confirmation will appear, either in blue (all went fine) or in red (something failed).
 
-![config_3.png](https://github.com/amcajal/ermon/blob/master/images/config_3.jpg)
+![config_3.png](https://github.com/amcajal/ermon/blob/master/Images/config_3.jpg)
 
 *In the creation window...*
 
-![creation_1.png](https://github.com/amcajal/ermon/blob/master/images/creation_1.jpg)
+![creation_1.png](https://github.com/amcajal/ermon/blob/master/Images/creation_1.jpg)
 
 * #### Add the data of the event in the left section.
 Select the title, if the event is a Periodical one -choosing "Repeat every" and then establishing the period- or a Single Execution one -choosing "Single Execution at" and establishing the time of the day-, the duration of the event, and its description.
 
 When you are finished, press Add Event button. A confirmation message will appear, indicating you if everything went ok, or something failed. The created event will appear in the right section.
 
-![creation_2.png](https://github.com/amcajal/ermon/blob/master/images/creation_2.jpg)
+![creation_2.png](https://github.com/amcajal/ermon/blob/master/Images/creation_2.jpg)
 
 * #### Modify or delete the created events with the buttons of the right section.
 Using the combo box of the footer, select the created events to delete them, or to modify them (its values will be loaded in the left section to directly modify them).  
 
 Finally, press Save button to save the events in a text file. You can browse in the system the folder where the file will be saved. Or, press Reset All to start from zero.
 
-![creation_3.png](https://github.com/amcajal/ermon/blob/master/images/creation_3.jpg)
+![creation_3.png](https://github.com/amcajal/ermon/blob/master/Images/creation_3.jpg)
 
 *In any moment...*
 
-* #### Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to check information about current loaded events, default set of events, or custom events.
+* #### Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to check information about current loaded events, default set of events, or custom events.
 Select in the combo box the required information, and then press Show button.
 
-![habits_1.png](https://github.com/amcajal/ermon/blob/master/images/habits_1.jpg)
+![habits_1.png](https://github.com/amcajal/ermon/blob/master/Images/habits_1.jpg)
 
-* #### Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/images/ermon_main_window.png) to check miscellaneous information about the application and its environment.
+* #### Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png) to check miscellaneous information about the application and its environment.
 Select in the combo box the required information, and then press the Show button.
 
-![habits_2.png](https://github.com/amcajal/ermon/blob/master/images/habits_2.jpg)
+![habits_2.png](https://github.com/amcajal/ermon/blob/master/Images/habits_2.jpg)
 
 
 [Back to user index](#user-section-index)
@@ -238,7 +238,7 @@ The development of **Ermon** has been driven following a well defined "philosoph
 
 All previous concepts can be unified and connected under the [V-Model](https://en.wikipedia.org/wiki/V-Model_%28software_development%29) paradigm, which is the one followed to develop **Ermon**. Clean Code principles and modularity are paradigm-independent, but V-Model allows a full traceability between the requirements, design, implementations and tests. V-Model characteristics allows to apply both [Top-Down and Bottom-Up](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) perspectives when needed (at first stages -prototypes- and last phases -verification-).
 
-![v_model](https://github.com/amcajal/ermon/blob/master/images/v_model.png)
+![v_model](https://github.com/amcajal/ermon/blob/master/Images/v_model.png)
 
 *Developers Notes*: several other paradigms, methodologies, principles and philosophies where considered for this project. Most relevant ones where the [Agile Manifesto](http://agilemanifesto.org/), [Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming), and specially [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
 
@@ -320,7 +320,7 @@ So, using these "guidelines", from all the possibilities, the following technolo
 - **MEDIA module**, compound of miscellaneous -multimedia- files used both for the GUI module and the SRC module, in order to achieve the necessary functionality.
 
 The connexion between this modules are represented in the figure below:
-![module_conection](https://github.com/amcajal/ermon/blob/master/images/ermon_architecture.png)
+![module_conection](https://github.com/amcajal/ermon/blob/master/Images/ermon_architecture.png)
 
 Basically, user uses the GUI components (windows and its buttons, text areas, pop-ups) to communicate with the SRC module, that will perform the internal operations of the application (like update timers and check events status). Certain of these operations (playing a sound or show textual information) requires external files that, due to their nature, can be grouped together under the MEDIA module.
 
@@ -347,7 +347,7 @@ With this in mind, each module is designed as follows:
 
 **GUI module**: the user interface functionality is achieved using [Swing components](https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html). Swing is a graphic library that includes widgets to create graphic user interfaces with the most common components like buttons, tables and text areas. Included in Netbeans, the creation of interfaces using this components is easy and most of the code can be generated automatically, reducing developing time and errors. The core elements are the multi-thread capability of the library (very important in order to control several elements concurrently, like the different timers and its text) and the [Event listeners](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html), that are constantly waiting for user actions (for example, the push of a button). In this way, any user action can be registered and processed as needed. Usually, a user action will be attached to a logical operation, thus connecting both elements.
 Use of Swing library allows a quick creation of GUIs, aesthetically as wanted, and with the required code to control the app. For example, application status control can be easily implemented with three single buttons (play, stop and pause), with minimal code, and totally understandable for the user.
-![state_diagram](https://github.com/amcajal/ermon/blob/master/images/ermon_state_diagram.png)
+![state_diagram](https://github.com/amcajal/ermon/blob/master/Images/ermon_state_diagram.png)
 
 **MEDIA module**: acts as a "database" or "internal storage". A simple project package without code -except the one needed for the API documentation (an addition in this project)- where the multimedia files used in the application -MIDI files, JPEG logos, plain text files- are stored together. In this way, both SRC and GUI modules can access easily to them, avoiding problems derived from the external storage in different OS (absolute and relative paths, permissions, accidental user operations).
 
@@ -355,9 +355,9 @@ Use of Swing library allows a quick creation of GUIs, aesthetically as wanted, a
 - "Event": represents the activity (physical or not) to be performed in order to maintain healthy while using the computer, like "walk five minutes" or "rub your eyes". It shall contain the necessary information both to communicate with the user and be controlled by the application. This information includes the title of the event, its description, duration and so on. This element can be easily implemented as a Java class, whose UML diagram is show below (TO_DO).
 - "Clock": element that control operations based on the time (how many seconds left, what time is it). Clock shall measure seconds, minutes and hours, and depends on these values, certain operations shall be triggered. There shall be three types of clocks, as requirements establishes -System Clock, Worked Time clock and Event clock-. Diagrams of the clocks are as follows:
 
-![generic_clock](https://github.com/amcajal/ermon/blob/master/images/generic_clock.png)
+![generic_clock](https://github.com/amcajal/ermon/blob/master/Images/generic_clock.png)
 
-![event_clock](https://github.com/amcajal/ermon/blob/master/images/event_clock.png)
+![event_clock](https://github.com/amcajal/ermon/blob/master/Images/event_clock.png)
 
 The implementation of the Clocks can be easily achieved using [Swing Workers](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/worker.html). Swing Workers perform GUI tasks in background threads, allowing several operations simultaneously without blocking each other (for example, press a button while a text are is updated). So each clock can work individually from the others, each one updating its state, but still able to communicate between them. This allows a graphic feedback, and an easier implementation and management.
 - "Supports": elements that performs operations required to communicate the clocks between them, and keep the system working. These support elements shall be able to:

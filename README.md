@@ -48,7 +48,7 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 ---
 
 ### Installation
-**Ermon** does not need to be installed. Just download the [executable](https://github.com/amcajal/ermon/blob/master/Ermon.jar?raw=true) -dont worry if the anti-virus warns you- and double click on it, like any other desktop icon.
+**Ermon** does not need to be installed. Just [download the executable here](https://github.com/amcajal/ermon/blob/master/Ermon.jar?raw=true) -dont worry if the anti-virus warns you- and double click on it, like any other desktop icon.
 
 ![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 
@@ -136,7 +136,7 @@ Press Apply Button to make the changes effective, or press Reset to return all o
 ### ===> Load, create or modify events with the options of the right section.
 Here you can do several operation:
 - Load the default set of events, already included in the application.
-- Load a set of events previously created by the user. Browse in the system to the file with the information, and its done! For example, [download here](https://raw.githubusercontent.com/amcajal/ermon/master/Examples/pomodoro_events_ermon.txt) the Pomodoro set of events and load it. There you go: you can apply know the [Pomodoro](http://pomodorotechnique.com/) technique in your daily work!
+- Load a set of events previously created by the user. Browse in the system to the file with the information, and its done! For example, [download here](https://github.com/amcajal/ermon/blob/master/Examples/pomodoro_events_ermong.txt?raw=true) the Pomodoro set of events and load it. There you go: you can apply know the [Pomodoro](http://pomodorotechnique.com/) technique in your daily work!
 - Create a set of custom events from zero, from a template (using the default events for that purpose), or modify a set of previously created events. All of this operations will lead to a Creation Window.
 
 A message of confirmation will appear, either in blue (all went fine) or in red (something failed).

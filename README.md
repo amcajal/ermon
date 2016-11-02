@@ -48,7 +48,7 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 ---
 
 ### Installation
-**Ermon** does not need to be installed. Just download the [executable](https://github.com/amcajal/ermon/tree/master/executable), (PUT A DOWNLOAD LINK IN GITHUB TO_DO) and double click on it, like any other desktop icon.
+**Ermon** does not need to be installed. Just download the [executable](https://github.com/amcajal/ermon/blob/master/Ermon.jar?raw=true) -dont worry if the anti-virus warns you- and double click on it, like any other desktop icon.
 
 ![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 
@@ -489,7 +489,7 @@ Alberto Martin Cajal at:
 
 ---
 
-### This project has been created trying to make it usefull. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
->
->The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka' but 'That’s funny...'
->
+#### This project has been created trying to make it usefull. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
+
+*The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka' but 'That’s funny...'*
+

@@ -136,7 +136,7 @@ Press Apply Button to make the changes effective, or press Reset to return all o
 ### ===> Load, create or modify events with the options of the right section.
 Here you can do several operation:
 - Load the default set of events, already included in the application.
-- Load a set of events previously created by the user. Browse in the system to the file with the information, and its done!
+- Load a set of events previously created by the user. Browse in the system to the file with the information, and its done! For example, [download here](https://raw.githubusercontent.com/amcajal/ermon/master/Examples/pomodoro_events_ermon.txt) the Pomodoro set of events and load it. There you go: you can apply know the [Pomodoro](http://pomodorotechnique.com/) technique in your daily work!
 - Create a set of custom events from zero, from a template (using the default events for that purpose), or modify a set of previously created events. All of this operations will lead to a Creation Window.
 
 A message of confirmation will appear, either in blue (all went fine) or in red (something failed).
@@ -209,14 +209,14 @@ Select in the combo box the required information, and then press the Show button
 
 - **Master branch**: main page of **Ermon**. It contains:
 	- **Executable**: Ermon JAR, ready to be launched.
-	- **Source**: folder with the source code and related files (MIDI files, Swing Forms and so on). It can be loaded directly into NetBeans, for example.
+	- **Source**: folder with the source code and related files (MIDI files, Swing Forms and so on). It can be loaded directly into an IDE.
 	- **Examples**: folder containing example files to be used in the application (custom sets of events), like the "Pomodoro" set of events.
 	- **Images**: folder containing images to be used in the README.
 	- **LICENSE**: license applied to this software.
 	- **README**: You can read it below.
 	- [**Issues Page**](https://github.com/amcajal/ermon/issues): List of bugs, enhancements requests, TODOs and so on.
 	
-- **API branch**: it hosts the HTML of **Ermon's** API -generated using Javadoc from NetBeans IDE, and modified later manually to add certain features- allowing the access to it as a web page. 
+- **API branch -gh-pages-**: it hosts the HTML of **Ermon's** API -generated using Javadoc from NetBeans IDE, and modified later manually to add certain features- allowing the access to it as a web page. 
 
 ![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
 

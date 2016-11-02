@@ -71,7 +71,7 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 
 ![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/main.jpg)
 
-* #### Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/Images/play.jpg) to start the clocks:
+### ===> Press Play Button ![play.jpg](https://github.com/amcajal/ermon/blob/master/Images/play.jpg) to start the clocks:
 The "Next Event" clock will count remaining seconds to the start of the next event, while "Worked Time" clock will count the seconds that the application is scheduling and deploying these events. You can see a summary of the next event or events in the "Description" field.
 
 ![play_1.png](https://github.com/amcajal/ermon/blob/master/Images/play_1.jpg)
@@ -85,14 +85,14 @@ There are 2 types of events: Periodical ones, and Single Execution ones. Periodi
 
 Dont worry about the Single Execution events: the application will warn you about them no matter if the clocks are running or paused.
 
-* #### Press Pause Button ![pause.jpg](https://github.com/amcajal/ermon/blob/master/Images/pause.jpg) to pause the clocks:
+### ===> Press Pause Button ![pause.jpg](https://github.com/amcajal/ermon/blob/master/Images/pause.jpg) to pause the clocks:
 The "Next Event" clock will be paused, keeping its value. "Worked Time" will pause or not, depends on the configuration applied (explained later).
 
 ![pause_1.png](https://github.com/amcajal/ermon/blob/master/Images/pause_1.jpg)
 
 Single Execution events will be deployed normally, even with the clocks paused. Just press Play Button when you want them back to work.
 
-* #### Press Stop Button ![stop.jpg](https://github.com/amcajal/ermon/blob/master/Images/stop.jpg) to stop the clocks:
+### ===> Press Stop Button ![stop.jpg](https://github.com/amcajal/ermon/blob/master/Images/stop.jpg) to stop the clocks:
 All clocks will stop, and its values will be erasted. Application will return to its initial state. In the Text Area you will see how many time the application has been working, in case its value is usefull for you.
 
 ![stop_1.png](https://github.com/amcajal/ermon/blob/master/Images/stop_1.jpg)
@@ -100,12 +100,12 @@ All clocks will stop, and its values will be erasted. Application will return to
 
 *While the clocks are running...*
 
-* #### Press See Button ![see.jpg](https://github.com/amcajal/ermon/blob/master/Images/see.jpg) to check information about the next events to be deployed:
+### ===> Press See Button ![see.jpg](https://github.com/amcajal/ermon/blob/master/Images/see.jpg) to check information about the next events to be deployed:
 The pop-up with the information of the events will appear, allowing you to check what are the next events to perform. The pop-up has two tabs, one for Periodical Execution events information, and another for Single Execution events information. Check whatever you want!
 
 ![see_1.png](https://github.com/amcajal/ermon/blob/master/Images/see_1.jpg)
 
-* #### Press Force Button ![force.jpg](https://github.com/amcajal/ermon/blob/master/Images/force.jpg) to force an event to start, or ignore the current one.
+### ===> Press Force Button ![force.jpg](https://github.com/amcajal/ermon/blob/master/Images/force.jpg) to force an event to start, or ignore the current one.
 You need an event to start inmediately? Press Force button, and it will start right now!
 You need to end an event inmediately? Press Force button, and the event in progress will end right now!
 
@@ -113,19 +113,19 @@ You need to end an event inmediately? Press Force button, and the event in progr
 
 Use this button to control directly the flux of events. Note that only Periodical Execution events can be affected by this. Single Execution events cannot be forced or ignored (they have a certain starting time).
 
-* #### Press Add Button ![add.jpg](https://github.com/amcajal/ermon/blob/master/Images/add.jpg) to include a new event to the actual list of events being scheduled.
+### ===> Press Add Button ![add.jpg](https://github.com/amcajal/ermon/blob/master/Images/add.jpg) to include a new event to the actual list of events being scheduled.
 You forgot to add an event to the list of currently scheduled, or need to include a new one in order to not forgot it (for example, "Call HHRR at 15:00")? Press Add button, create it, and add it with no problems. Creation Window will be explained later.
 
 *While the clocks are stopped...*
 
-* #### Press Configuration Button ![configuration.jpg](https://github.com/amcajal/ermon/blob/master/Images/configuration.jpg) to expand the configuration section.
+### ===> Press Configuration Button ![configuration.jpg](https://github.com/amcajal/ermon/blob/master/Images/configuration.jpg) to expand the configuration section.
 Here you can configure several aspects of Ermon.
 
 ![config_1.png](https://github.com/amcajal/ermon/blob/master/Images/config_1.jpg)
 
 *In the configuration section...*
 
-* #### Change the basic options in the left section.
+### ===> Change the basic options in the left section.
 By selecting or deselecting the options you can choose if the pop-ups shall appear with sound or in silence; if the pop-ups shall appear in foreground or in background, and if "Worked Time" shall be paused when Pause button is pressed.
 
 Press Apply Button to make the changes effective, or press Reset to return all options to its initial values. You will see a confirmation message in blue.
@@ -133,7 +133,7 @@ Press Apply Button to make the changes effective, or press Reset to return all o
 ![config_2.png](https://github.com/amcajal/ermon/blob/master/Images/config_2.jpg)
 
 
-* #### Load, create or modify events with the options of the right section.
+### ===> Load, create or modify events with the options of the right section.
 Here you can do several operation:
 - Load the default set of events, already included in the application.
 - Load a set of events previously created by the user. Browse in the system to the file with the information, and its done!
@@ -154,7 +154,7 @@ When you are finished, press Add Event button. A confirmation message will appea
 
 ![creation_2.png](https://github.com/amcajal/ermon/blob/master/Images/creation_2.jpg)
 
-* #### Modify or delete the created events with the buttons of the right section.
+### ===> Modify or delete the created events with the buttons of the right section.
 Using the combo box of the footer, select the created events to delete them, or to modify them (its values will be loaded in the left section to directly modify them).  
 
 Finally, press Save button to save the events in a text file. You can browse in the system the folder where the file will be saved. Or, press Reset All to start from zero.
@@ -163,12 +163,12 @@ Finally, press Save button to save the events in a text file. You can browse in 
 
 *In any moment...*
 
-* #### Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/Images/habits.jpg) to check information about current loaded events, default set of events, or custom events.
+### ===> Press Habits Button ![habits.jpg](https://github.com/amcajal/ermon/blob/master/Images/habits.jpg) to check information about current loaded events, default set of events, or custom events.
 Select in the combo box the required information, and then press Show button.
 
 ![habits_1.png](https://github.com/amcajal/ermon/blob/master/Images/habits_1.jpg)
 
-* #### Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/Images/about.jpg) to check miscellaneous information about the application and its environment.
+### ===> Press About Button ![about.jpg](https://github.com/amcajal/ermon/blob/master/Images/about.jpg) to check miscellaneous information about the application and its environment.
 Select in the combo box the required information, and then press the Show button.
 
 ![habits_2.png](https://github.com/amcajal/ermon/blob/master/Images/habits_2.jpg)
@@ -489,5 +489,7 @@ Alberto Martin Cajal at:
 
 ---
 
-## This project has been created trying to make it usefull. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
-*The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka' but 'That’s funny...'*
+### This project has been created trying to make it usefull. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
+>
+>The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka' but 'That’s funny...'
+>

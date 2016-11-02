@@ -216,7 +216,7 @@ Select in the combo box the required information, and then press the Show button
 	- **README**: You can read it below.
 	- [**Issues Page**](https://github.com/amcajal/ermon/issues): List of bugs, enhancements requests, TODOs and so on.
 	
-- **API branch -gh-pages-**: it hosts the HTML of **Ermon's** API -generated using Javadoc from NetBeans IDE, and modified later manually to add certain features- allowing the access to it as a web page. 
+- **API branch -gh-pages-**: it hosts the HTML of **Ermon's** [API](https://amcajal.github.io/ermon/) -generated using Javadoc from NetBeans IDE, and modified later manually to add certain features- allowing the access to it as a web page. 
 
 ![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
 
@@ -332,7 +332,7 @@ So, using these "guidelines", from all the possibilities, the following technolo
 
 ### Architecture
 
-*NOTE: Check the [API](TO_DO) for a full description of the code -packages, classes, methods-.*
+*NOTE: Check the [API](https://amcajal.github.io/ermon/) for a full description of the code -packages, classes, methods-.*
 
 **Ermon** application is compound of the following modules:
 - **GUI module**, responsible of the graphic user interface, and thus, the communication between the program logic and the user commands. 
@@ -361,7 +361,7 @@ For example: user wants to start the timers, so he press the "Play Button" (glob
 
 *Developers note: Design and Implementation are separated by a blurred thin line. In this case, both concepts are presented together, in order to reduce the extension of the document and provide real examples that easies the understanding of it.* 
 
-*Of course, check the [API](TO_DO) for a full description of the code -packages, classes, methods-.*
+*Of course, check the [API](https://amcajal.github.io/ermon/) for a full description of the code -packages, classes, methods-.*
 
 Following the "three layer" architecture, each module is designed with the objective of ease the implementation, making use of existing solutions whenever possible. When custom ones are needed, they shall be as simple as possible.
 
@@ -375,7 +375,7 @@ Use of Swing library allows a quick creation of GUIs, aesthetically as wanted, a
 **MEDIA module**: acts as a "database" or "internal storage". A simple project package without code -except the one needed for the API documentation (an addition in this project)- where the multimedia files used in the application -MIDI files, JPEG logos, plain text files- are stored together. In this way, both SRC and GUI modules can access easily to them, avoiding problems derived from the external storage in different OS (absolute and relative paths, permissions, accidental user operations).
 
 **SOURCE module**: all required logic operations of the application can be achieved with the following elements:
-- "Event": represents the activity (physical or not) to be performed in order to maintain healthy while using the computer, like "walk five minutes" or "rub your eyes". It shall contain the necessary information both to communicate with the user and be controlled by the application. This information includes the title of the event, its description, duration and so on. This element can be easily implemented as a Java class, whose UML diagram is show below (TO_DO).
+- "Event": represents the activity (physical or not) to be performed in order to maintain healthy while using the computer, like "walk five minutes" or "rub your eyes". It shall contain the necessary information both to communicate with the user and be controlled by the application. This information includes the title of the event, its description, duration and so on. This element can be easily implemented as a [Java class](https://amcajal.github.io/ermon/src/Event.html).
 - "Clock": element that control operations based on the time (how many seconds left, what time is it). Clock shall measure seconds, minutes and hours, and depends on these values, certain operations shall be triggered. There shall be three types of clocks, as requirements establishes -System Clock, Worked Time clock and Event clock-. Diagrams of the clocks are as follows:
 
 ![generic_clock](https://github.com/amcajal/ermon/blob/master/Images/generic_clock.png)

@@ -43,12 +43,16 @@ And of course, completely FREE.
 
 If all answers were "Yes" (I'm worried about the second one), you are ready to use **Ermon**. In case you -surprisingly- don't have Java installed, [click here](https://www.java.com/es/download/) and follow the instructions. Done!
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
+
+---
 
 ### Installation
 **Ermon** does not need to be installed. Just download the [executable](https://github.com/amcajal/ermon/tree/master/executable), (PUT A DOWNLOAD LINK IN GITHUB TO_DO) and double click on it, like any other desktop icon.
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
+
+---
 
 ### Quickstart
 1. Double click on Ermon icon. Main window will appear.
@@ -57,7 +61,9 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 
 *NOTE: Linux users should execute "$> java -jar Ermon.jar"  Be sure to [enable Nimbus look and feel](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html)!*  
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
+
+---
 
 ### Using Ermon
 
@@ -168,12 +174,14 @@ Select in the combo box the required information, and then press the Show button
 ![habits_2.png](https://github.com/amcajal/ermon/blob/master/Images/habits_2.jpg)
 
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
+
+---
 
 ### Uninstall
 **Ermon** does not need to be installed. Thus, to "uninstall" it, simply delete the program from your PC (drag and drop into the Recycle Bin, or secondary clock on the Ermon executable and select "Delete")
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 
 ---
 
@@ -184,8 +192,8 @@ Select in the combo box the required information, and then press the Show button
 3. [Motivation](#motivation)
 4. [Methodologies, paradigms and principles](#methodology-paradigm-and-principles)
 5. [Software requirements](#software-requirements)
-6. [Hardware requirements](#hardware-considerations)
-7. [Technologies](#technologies)
+6. [Hardware requirements](#hardware-requirements)
+7. [Technologies](#technology)
 8. [Architecture](#architecture)
 9. [Design](#design)
 10. [Tools](#tools)
@@ -210,7 +218,9 @@ Select in the combo box the required information, and then press the Show button
 	
 - **API branch**: it hosts the HTML of **Ermon's** API -generated using Javadoc from NetBeans IDE, and modified later manually to add certain features- allowing the access to it as a web page. 
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Motivation
 Computers have become one of the main tools of the XXI Century, being present in a great number of professional fields, and in the daily life too.
@@ -227,7 +237,9 @@ Motivation then is clear: develop an alternative to these tools, making it simpl
 
 **Ermon** (acronym of ERgonomic MONitor) is presented as this alternative. A simple application, that helps the user to perform activities to combat the adverse effects of a prolonged use of the computer, easy to use, and with customization capabilities (for example, to choose the set of exercises to be scheduled).
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Methodology, Paradigm and Principles
 
@@ -243,7 +255,9 @@ All previous concepts can be unified and connected under the [V-Model](https://e
 
 *Developers Notes*: several other paradigms, methodologies, principles and philosophies where considered for this project. Most relevant ones where the [Agile Manifesto](http://agilemanifesto.org/), [Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29), [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming), and specially [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Software requirements
 
@@ -282,13 +296,16 @@ All previous concepts can be unified and connected under the [V-Model](https://e
 
 Whenever possible, each one of these requirements shall be traced to a design unit, then traced to an implementation unit, and then traced to a test unit.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
 
+---
 
 ### Hardware requirements
 **Ermon** is a desktop application and is conceived as a pure software project, so no hardware considerations or requirements has been taken/established.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Technology
 
@@ -309,7 +326,9 @@ So, using these "guidelines", from all the possibilities, the following technolo
 
 *Developers Notes*: Most relevant technologies considered for **Ermon** development where Python as core programming language, MP3 for sound playing and XML for data storage -configuration, custom events-.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Architecture
 
@@ -334,7 +353,9 @@ This architecture (that can be understood as a modified or customized version of
 
 For example: user wants to start the timers, so he press the "Play Button" (globally recognized thanks to the "Play" logo, under MEDIA package). This simple action is received in the MainWindow (GUI package) that, besides update the graphical aspect of the interface giving feedback of what is happening, triggers the operations of the EventClock, GenericClock, CongifLoader classes and more (SRC package), performing the core operations -update timers, check which events will be next, keep track of the application status-.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Design
 
@@ -370,7 +391,9 @@ The implementation of the Clocks can be easily achieved using [Swing Workers](ht
 All of the previous elements can be implemented easily as Java classes, using the core functionalities of the language.
 
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Tools
 The following list comprises all tools used to develop **Ermon**, according to the software requirements, technological, architectural and design choices, and software life cycle considerations.
@@ -386,7 +409,9 @@ Beside the previously ones, the following "tools" (definition can vary) has been
 - Several [Windows OSs](https://www.microsoft.com/es-es/windows) and several [Linux OSs](https://www.linux.com/what-is-linux), in order to check the behaviour of the jar in different systems.
 - Several web browsers like [Google Chrome](https://www.google.es/chrome/browser/desktop/) and [Mozilla Firefox](https://www.mozilla.org/es-ES/firefox/new/), in order to check the API and GitHub appearance in different browsers.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### External resources
 The following web pages has been used during **Ermon** development as useful -or even essential- references:
@@ -425,14 +450,16 @@ Related to Ergonomy science, there are some of the resources used for both learn
 
 Same can be applied to the Pomodoro-set-of-events. If interested in this technique, check the [official web page](http://pomodorotechnique.com/).
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Issues
 For bug tracking, enhancements/features or change requests, check the [Issues page](https://github.com/amcajal/ermon/issues) of the project.
 
 For professional inquiries, check the [Contact](#contact) section.
 
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
 
 ---
 
@@ -440,10 +467,12 @@ For professional inquiries, check the [Contact](#contact) section.
 Alberto Martin Cajal is the original author of **Ermon** project.
 **Ermon** project is released under GNU GPL version 3.0 license. Check 'LICENSE' file for a full version of it, or visit the official [GNU web page](https://www.gnu.org/licenses/gpl-3.0.html).
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
 
 ### Contact
 Alberto Martin Cajal at:
@@ -453,7 +482,12 @@ Alberto Martin Cajal at:
 - [LinkedIn](https://es.linkedin.com/in/alberto-martin-cajal-b0a63379)
 - Twitter: @amartin_g23
 
-[Back to user index](#user-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Back to developer index](#developer-section-index)
+![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to developer index](#developer-section-index)
+
+---
+
+## This project has been created trying to make it usefull. This project has been created in order to learn new things. But over all, this project has been created because it is fun. As Isaac Asimov said:
+*The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka' but 'That’s funny...'*

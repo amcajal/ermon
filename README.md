@@ -12,7 +12,9 @@ Ermon main features are:
 - **Portable**: No installation needed. Just click on the application, and run. 
 - **Customizable**: New events can be created, modified and saved. Basic tool configuration options can be set too.
 
-And of course, completely FREE.
+And of course, completely FREE. 
+
+###[DOWNLOAD HERE RIGHT NOW!](https://github.com/amcajal/ermon/blob/master/Ermon.jar?raw=true)
 
 ![ermon_main_window.png](https://github.com/amcajal/ermon/blob/master/Images/ermon_main_window.png)
 
@@ -59,7 +61,7 @@ If all answers were "Yes" (I'm worried about the second one), you are ready to u
 2. Press "Play" button.
 3. Ermon is now running! It will notify about the events to perform.
 
-*NOTE: Linux users should execute "$> java -jar Ermon.jar"  Be sure to [enable Nimbus look and feel](https://docs.oracle.com/javase/tutorial/uiswing/lookandfeel/nimbus.html)!*  
+*NOTE: Linux users should execute "$> java -jar Ermon.jar"*
 
 ![up](https://github.com/amcajal/ermon/blob/master/Images/up.png)[Back to user index](#user-section-index)
 

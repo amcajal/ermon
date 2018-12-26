@@ -8,7 +8,7 @@
 *				       $> ant <target>
 *
 *				The available target are the following ones:
-*
+*				@TODO
 *
 * Contact:     Alberto Martin Cajal <amartin.glimpse23@gmail.com>
 * Website:     https://github.com/amcajal/ermon
@@ -27,3 +27,39 @@
 * You should have received a copy of the GNU General Public License
 * along with ERMON.  If not, see <http://www.gnu.org/licenses/>.
 -->
+
+<project name="Ermon" basedir="./" default="main">
+	
+	<property name="src.dir" value ="../src"/> <!--@TODO-->
+	<property name="classes.dir" value ="./classes"/>
+	<property name="jar.dir" value ="./jar"/>
+	
+	<property name="main-class" value ="../gui/MainWindow"/>
+	
+	
+	<target name="clean">
+		<delete dir="./classes"/>
+		<delete dir="./jar"/>
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="./classes"/>
+		<javac srcdir="../src" destdir="./classes"/>
+	</target>
+	
+	<target name="jar">
+		<mkdir dir="./jar"/>
+		<jar destfile="./jar/Ermon.jar" basedir="./classes">
+			<manifest>
+				<attribute name="Main-Class" value="src.Main"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="run">
+		<java jar="./jar/Ermon.jar" fork="true"/>
+	</target>
+	
+	<target name="clean-build" depends="clean,compile,jar"/>
+	
+</project>

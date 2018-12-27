@@ -30,7 +30,10 @@
 
 <project name="Ermon" basedir="./" default="main">
 	
-	<property name="src.dir" value ="../src"/> <!--@TODO-->
+	<property name="src.dir" value="../src"/>
+	<property name="gui.dir" value="../gui"/>
+	<property name="media.dir" value="../media"/>
+
 	<property name="classes.dir" value ="./classes"/>
 	<property name="jar.dir" value ="./jar"/>
 	
@@ -38,28 +41,31 @@
 	
 	
 	<target name="clean">
-		<delete dir="./classes"/>
-		<delete dir="./jar"/>
+		<delete dir="${classes.dir}"/>
+		<delete dir="${jar.dir}"/>
 	</target>
 	
 	<target name="compile">
-		<mkdir dir="./classes"/>
-		<javac srcdir="../src" destdir="./classes"/>
+		<mkdir dir="${classes.dir}"/>
+		<javac 
+			srcdir="${src.dir};${gui.dir}" 
+			destdir="${classes.dir}"/>
 	</target>
 	
-	<target name="jar">
-		<mkdir dir="./jar"/>
-		<jar destfile="./jar/Ermon.jar" basedir="./classes">
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dir}"/>
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
 			<manifest>
-				<attribute name="Main-Class" value="src.Main"/>
+				<attribute name="Main-Class" value="${main-class}"/>
 			</manifest>
 		</jar>
 	</target>
 	
-	<target name="run">
-		<java jar="./jar/Ermon.jar" fork="true"/>
+	<target name="run" depends="jar">
+		<java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
 	</target>
 	
 	<target name="clean-build" depends="clean,compile,jar"/>
-	
+
+	<target name="main" depends="clean,run"/>	
 </project>

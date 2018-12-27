@@ -37,7 +37,7 @@
 	<property name="classes.dir" value ="./classes"/>
 	<property name="jar.dir" value ="./jar"/>
 	
-	<property name="main-class" value ="../gui/MainWindow"/>
+	<property name="main-class" value ="gui.MainWindow"/>
 	
 	
 	<target name="clean">
@@ -47,17 +47,30 @@
 	
 	<target name="compile">
 		<mkdir dir="${classes.dir}"/>
-		<javac 
-			srcdir="${src.dir};${gui.dir}" 
+		<javac
+			srcdir="${src.dir};${gui.dir}"
 			destdir="${classes.dir}"/>
+		<copy todir="${classes.dir}/src">
+			<fileset dir="${media.dir}" casesensitive="no">
+				<include name="**/*.mid"/>
+				<include name="**/*.txt"/>
+				<include name="**/*.java"/>
+			</fileset>
+		</copy>
+		<copy todir="${classes.dir}/gui">
+			<fileset dir="${media.dir}" casesensitive="no">
+				<include name="**/*.png"/>
+			</fileset>
+		</copy>
 	</target>
 	
 	<target name="jar" depends="compile">
 		<mkdir dir="${jar.dir}"/>
-		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}" includes="**/*.*">
 			<manifest>
 				<attribute name="Main-Class" value="${main-class}"/>
 			</manifest>
+			
 		</jar>
 	</target>
 	
@@ -65,7 +78,7 @@
 		<java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
 	</target>
 	
-	<target name="clean-build" depends="clean,compile,jar"/>
+	<target name="full-build" depends="clean,run"/>
 
-	<target name="main" depends="clean,run"/>	
+	<target name="main" depends="clean,compile,jar"/>	
 </project>

@@ -25,6 +25,45 @@ And of course, completely FREE and OPEN SOURCE.
 
 ---
 
+### Index
+
+1. [Quickstart](#quickstart)
+2. [Contributions](#contributions)
+3. [License](#license)
+4. [Contact](#contact)
+
+---
+
+### Quickstart
+
+#### For users:
+**Ermon** does not need to be installed. Just [download the executable here](https://github.com/amcajal/ermon/blob/master/downloads/Ermon.jar?raw=true) 
+-dont worry if the anti-virus warns you. Once downloaded, usage is straightforward:
+1. Double click on Ermon jar file (the one you just downloaded). Main window will appear.
+2. Press "Play" button.
+3. Ermon is now running! It will notify about the events to perform.
+
+A complete user manual can be found in the wiki. [Click here to navigate to it](https://github.com/amcajal/ermon/wiki/User-Manual).
+
+#### For developers:
+- Clone the repository: 
+```
+$> git clone https://github.com/amcajal/ermon.git
+```
+
+- Run setup.sh script. It will check for required tools, libraries, and will perform a full build of the application.
+```
+$> sh setup.sh
+```
+
+- To manually build the application:
+```
+$> cd <root_dir>/project/dev/integration
+$> ant full-build
+```
+
+---
+
 ### Contributions
 
 Ermon is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/ermon/wiki/Contributions).

@@ -5,6 +5,21 @@ This page contains the main references and resources used during the application
 links found in the project are listed here. When the scope of the reference is small, it is directly inserted in the Markdown code.
 
 ___
+**id**: 1
+**Title**: How to compile a Java Swing app with Ant (1)
+**Tags**: how, compile, java, swing, ant, part, one
+**URL**: https://alvinalexander.com/blog/post/java/how-compile-java-program-application-ant-task-target
+___
+**id**: 2
+**Title**: How to compile a Java Swing app with Ant (2)
+**Tags**: how, compile, java, swing, ant, part, two
+**URL**: https://alvinalexander.com/blog/post/java/ant-build-script-for-java-application-fptracker-app
+___
+**id**: 3
+**Title**: Apache Ant Manual: Javac task
+**Tags**: apache, ant, manual, javac, task
+**URL**: https://ant.apache.org/manual/Tasks/javac.html
+___
 **id**: 18   
 **Title**: Git official webpage   
 **Tags**: Git, official, webpage, vcs,    

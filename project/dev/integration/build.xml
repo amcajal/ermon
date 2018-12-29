@@ -44,22 +44,23 @@
 		<delete dir="${classes.dir}"/>
 		<delete dir="${jar.dir}"/>
 	</target>
-	
-	<target name="compile">
+
+	<target name="compile" depends="clean">
 		<mkdir dir="${classes.dir}"/>
-		<javac
-			srcdir="${src.dir};${gui.dir}"
-			destdir="${classes.dir}"/>
-		<copy todir="${classes.dir}/src">
+        <mkdir dir="${classes.dir}/media"/>
+        <javac  source="1.8"
+                srcdir="${src.dir};${gui.dir}"
+                destdir="${classes.dir}"/>
+        <copy todir="${classes.dir}/media">
 			<fileset dir="${media.dir}" casesensitive="no">
 				<include name="**/*.mid"/>
 				<include name="**/*.txt"/>
-				<include name="**/*.java"/>
+				<include name="**/*.png"/>
 			</fileset>
 		</copy>
-		<copy todir="${classes.dir}/gui">
-			<fileset dir="${media.dir}" casesensitive="no">
-				<include name="**/*.png"/>
+        <copy todir="${classes.dir}/gui">
+			<fileset dir="${gui.dir}" casesensitive="no">
+				<include name="**/*.form"/>
 			</fileset>
 		</copy>
 	</target>

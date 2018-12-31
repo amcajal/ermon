@@ -1,6 +1,5 @@
 ![ermon_logo](https://github.com/amcajal/ermon/blob/master/project/doc/media/readme_ermon_logo.png)
-@TODO
-[![Build Status](https://travis-ci.org/amcajal/gsvmind.svg?branch=master)](https://travis-ci.org/amcajal/gsvmind)
+
 [![Version](https://img.shields.io/badge/Version-1.10.0-brightgreen.svg)
 [![GitHub license](https://img.shields.io/github/license/amcajal/gsvmind.svg)](https://github.com/amcajal/gsvmind/blob/master/LICENSE)
 
@@ -62,11 +61,13 @@ $> cd <root_dir>/project/dev/integration
 $> ant full-build
 ```
 
+[Back to index](#index)
+
 ---
 
 ### Contributions
 
-Ermon is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/ermon/wiki/Contributions).
+Ermon is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/ermon/wiki/Page-005:-Contributions).
 
 [Back to index](#index)
 
@@ -87,7 +88,6 @@ Alberto Martin Cajal at:
 - Gmail: amartin.glimpse23@gmail.com (amartin DOT glimpse23 AT gmail DOT com)
 - [Blogspot](http://glimpse-23.blogspot.com.es/)
 - [LinkedIn](https://es.linkedin.com/in/alberto-martin-cajal-b0a63379)
-- Twitter: @amartin_g23
 
 [Back to index](#index)
 

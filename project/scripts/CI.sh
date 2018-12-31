@@ -2,13 +2,10 @@
 ################################################################################
 #   Project: Ermon
 #
-#   File: setup.sh
+#   File: CI.sh
 #
-#   Description: Performs initial setup of Ermon project, consisting in:
-#		- Check if required software is located in the system
-#		- Perform a Continuous Integration (CI) iteration.
-#		The script is automatic, and each phase is executed only
-#		if previous one finish successfully.
+#   Description: Performs a Continuous Integration (CI) in the local
+#		computer (full build, testing and deployment cycle).
 #
 #   Notes: N/A
 #
@@ -55,35 +52,28 @@ print_error_message()
 print_success_message()
 {
 	echo "##############################"
-	echo "	ERMON SETUP FINISHED SUCCESSFULLY. APP READY TO GO!"
+	echo "	Ermon Project: Continuous Integration finished successfully!"
 	echo "##############################"
 }
 
-################################################################################
+###############################################################################
+print_info_message "Ermon Continuous Integration"
 
-print_info_message "Ermon Project SETUP script"
+SCRIPTS_DIR=$(pwd)
+INTEGRATION_DIR=../dev/integration/
 
-CURRENT_DIR=$(pwd)
-SCRIPTS_DIR="./project/scripts"
-LOG_ABSPATH=$(pwd)/setup_log.txt
-rm setup_log.txt
+#Currently, the script is very simple, as it just launches Ant to build the application.
 
-cd $SCRIPTS_DIR
-
-#CHECK FOR REQUIRED SOFTWARE
-sh check_req_software.sh 2>&1 | tee -ai $LOG_ABSPATH
-
-################################################################################
-# ATTEMPT CONTINUOUS INTEGRATION (CI) EXECUTION
-################################################################################
-print_info_message "Running Continuous Integration (CI) script of Ermon..."
-
-sh CI.sh 2>&1 | tee -ai $LOG_ABSPATH
+print_info_message "Building application..."
+cd $INTEGRATION_DIR
+ant
 
 if [ $? -ne 0 ]; then
-    print_error_message "sh $SCRIPTS_DIR/CI.sh"
-    exit 1
+	print_error_message "ant build at $INTEGRATION_DIR"
+	exit 1
 fi
+
 ###############################################################################
+
 print_success_message
 exit 0

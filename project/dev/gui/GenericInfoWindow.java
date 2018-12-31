@@ -135,7 +135,9 @@ public class GenericInfoWindow extends javax.swing.JFrame {
         descriptionTextArea.setColumns(20);
         descriptionTextArea.setLineWrap(true);
         descriptionTextArea.setRows(5);
+	descriptionTextArea.setCaretPosition(0);
         jScrollPane1.setViewportView(descriptionTextArea);
+	jScrollPane1.getVerticalScrollBar().setValue(0);
 
         Show.setText("Show");
         Show.addActionListener(new java.awt.event.ActionListener() {
@@ -383,7 +385,9 @@ public class GenericInfoWindow extends javax.swing.JFrame {
                     descriptionTextArea.setText("Invalid custom events file."); 
                 }
             }   
-        }     
+        }
+	descriptionTextArea.setCaretPosition(0);
+	jScrollPane1.getVerticalScrollBar().setValue(0);     
     }                                    
   
     /**

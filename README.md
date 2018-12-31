@@ -1,6 +1,5 @@
 ![ermon_logo](https://github.com/amcajal/ermon/blob/master/project/doc/media/readme_ermon_logo.png)
-@TODO
-[![Build Status](https://travis-ci.org/amcajal/gsvmind.svg?branch=master)](https://travis-ci.org/amcajal/gsvmind)
+
 [![Version](https://img.shields.io/badge/Version-1.10.0-brightgreen.svg)
 [![GitHub license](https://img.shields.io/github/license/amcajal/gsvmind.svg)](https://github.com/amcajal/gsvmind/blob/master/LICENSE)
 
@@ -61,6 +60,8 @@ $> sh setup.sh
 $> cd <root_dir>/project/dev/integration
 $> ant full-build
 ```
+
+[Back to index](#index)
 
 ---
 

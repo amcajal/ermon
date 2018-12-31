@@ -9,8 +9,8 @@ Consider "tools" as the "computer elements" involved in the creation of the appl
 of the more professional [definition of tool provided in The Jargon File](http://catb.org/jargon/html/T/tool.html).
 
 **Hardware and OS**
-- Generic Laptop computer (4GB RAM, Intel Centrino (circa 2009)) with Ubuntu 12.04
-    -    _GNU binutils and other basic software already included in Ubuntu 12.04 OS is not listed here.
+- Generic Laptop computer (4GB RAM, Intel Centrino (circa 2009)) with Ubuntu 12.04 and Windows 7 OS.
+    -    _GNU binutils and other basic software already included in Ubuntu 12.04 OS are not listed here.
 	  For example: text editors (gedit)_
 
     _Note_: The Generic Laptop decided to name itself "September". The explanation to this [is here](https://github.com/amcajal/gsvmind)
@@ -30,6 +30,26 @@ table, th, td {
         <th>Tool</th>
         <th>Purpose</th>
         <th>Links</th>
+    </tr>
+    <tr>
+        <td>Java</td> 
+        <td>Programming Language of choice for the project.</td>  
+        <td>See <a href="https://github.com/amcajal/Ermon/wiki/References">References</a>, 1</td>
+    </tr>
+    <tr>
+        <td>Ant</td> 
+        <td>Build automation tool for Java (like "make" for C)</td>  
+        <td>See <a href="https://github.com/amcajal/Ermon/wiki/References">References</a>, 2</td>
+    </tr>
+    <tr>
+        <td>Netbeans IDE 8.0.2</td> 
+        <td>IDE of choice for Windows platform development.</td>  
+        <td>See <a href="https://github.com/amcajal/Ermon/wiki/References">References</a>, 3</td>
+    </tr>
+    <tr>
+        <td>Midi On-Line Sequencer</td> 
+        <td>On-line tool for basic MIDI music composition.</td>  
+        <td>See <a href="https://github.com/amcajal/Ermon/wiki/References">References</a>, 6</td>
     </tr>
     <tr>
         <td>Git</td> 

@@ -1,9 +1,46 @@
 REFERENCES
 ==========
 
+## Index
+1. [Development References](#development-references)
+2. [Ergonomy References](#ergonomy-references)
+
+---
+
+### DEVELOPMENT REFERENCES
 This page contains the main references and resources used during the application development. Take into consideration that not ALL
 links found in the project are listed here. When the scope of the reference is small, it is directly inserted in the Markdown code.
 
+___
+**id**: 1   
+**Title**: Java official webpage    
+**Tags**: java, official, webpage, oracle   
+**URL**: https://www.java.com/en/    
+___
+**id**: 2   
+**Title**: Ant official webpage at Apache.org  
+**Tags**: ant, official, webpage, apache   
+**URL**: http://ant.apache.org/   
+___
+**id**: 3    
+**Title**: Netbeans IDE official webpage   
+**Tags**: Netbeans, IDE, official, webpage, java, integrated, development, environment   
+**URL**:  https://netbeans.org/
+___
+**id**: 4   
+**Title**: Pomodoro Technique   
+**Tags**: pomodoro, technique    
+**URL**: http://pomodorotechnique.com/  
+___
+**id**: 5   
+**Title**: A successful git branching model, at nvie.com   
+**Tags**: git, branching, model, nvie, branch, workflow, master, development   
+**URL**:  https://nvie.com/posts/a-successful-git-branching-model/
+___
+**id**: 6   
+**Title**: Midi On-Line Sequencer   
+**Tags**: midi, sequencer, online   
+**URL**: https://onlinesequencer.net 
 ___
 **id**: 18   
 **Title**: Git official webpage   
@@ -39,3 +76,29 @@ ___
 **Title**:    
 **Tags**:    
 **URL**:    
+
+---
+
+### ERGONOMY REFERENCES
+
+Related to Ergonomy science, there are some of the resources used for both learn about the science, 
+and create the default set of events of **Ermon**. Note that these links provide a simple approach to ergonomic questions, 
+and thus, deeper researches can be done.
+
+- [Microsoft Healthy Computer Guide](http://www.microsoft.com/hardware/en-us/support/healthy-computing-guide)
+
+- [McKinley Health Center](http://www.mckinley.illinois.edu/Handouts/posture_study_habits/posture_study_habits.htm)
+
+- [Human factors and ergonomics](https://en.wikipedia.org/wiki/Human_factors_and_ergonomics)
+
+- [Environmental Health and Safety](http://www.ehs.pitt.edu/workplace/10steps.html)
+
+- [Ergonomics, university of California](http://ergo.berkeley.edu/services/computer_use.php)
+
+- [Work breaks, exercises and stretches](http://web.stanford.edu/dept/EHS/prod/general/ergo/microbreaks.html)
+
+- [Carpal tunnel syndrome exercises for the wrist and forearm](http://www.safecomputingtips.com/ct-exercises/)
+
+- [About desk exercises](http://www.onestopergonomics.com/pages/desk-exercises-ergonomic-breaks)
+
+- [6 refreshing eye exercises](http://www.rebuildyourvision.com/blog/vision-conditions/computer-vision-syndrome/6-refreshing-eye-exercises-for-tired-computer-users/)

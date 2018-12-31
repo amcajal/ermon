@@ -8,3 +8,5 @@ is located under project/def folder.
 A number between brackets represents a reference to the [Resources](https://github.com/amcajal/ermon/wiki/References) page in the Wiki.
 For example, [4] representes the entry with ID 4 at Resources page.
 ****
+
+*No relevant notes were taken for this project.*

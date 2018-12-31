@@ -1,0 +1,85 @@
+<!--
+* Proyect:     ERMON.
+* File:        build.xml
+* Description: XML file to be used by Ant (the "make" for Java)
+*				to build the final Jar of Ermon.
+*
+*				Usage: $> cd <directory_with_xml_file>
+*				       $> ant <target>
+*
+*				The available target are the following ones:
+*				@TODO
+*
+* Contact:     Alberto Martin Cajal <amartin.glimpse23@gmail.com>
+* Website:     https://github.com/amcajal/ermon
+* Copyrigth:   GNU General Public License, version 3.0.
+*
+* ERMON is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* ERMON is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with ERMON.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<project name="Ermon" basedir="./" default="main">
+	
+	<property name="src.dir" value="../src"/>
+	<property name="gui.dir" value="../gui"/>
+	<property name="media.dir" value="../media"/>
+
+	<property name="classes.dir" value ="./classes"/>
+	<property name="jar.dir" value ="./jar"/>
+	
+	<property name="main-class" value ="gui.MainWindow"/>
+	
+	
+	<target name="clean">
+		<delete dir="${classes.dir}"/>
+		<delete dir="${jar.dir}"/>
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="${classes.dir}"/>
+        <mkdir dir="${classes.dir}/media"/>
+        <javac  source="1.8"
+                srcdir="${src.dir};${gui.dir}"
+                destdir="${classes.dir}"/>
+        <copy todir="${classes.dir}/media">
+			<fileset dir="${media.dir}" casesensitive="no">
+				<include name="**/*.mid"/>
+				<include name="**/*.txt"/>
+				<include name="**/*.png"/>
+			</fileset>
+		</copy>
+        <copy todir="${classes.dir}/gui">
+			<fileset dir="${gui.dir}" casesensitive="no">
+				<include name="**/*.form"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dir}"/>
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}" includes="**/*.*">
+			<manifest>
+				<attribute name="Main-Class" value="${main-class}"/>
+			</manifest>
+			
+		</jar>
+	</target>
+	
+	<target name="run" depends="jar">
+		<java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
+	</target>
+	
+	<target name="full-build" depends="clean,run"/>
+
+	<target name="main" depends="clean,compile,jar"/>	
+</project>

@@ -67,7 +67,7 @@ $> ant full-build
 
 ### Contributions
 
-Ermon is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/ermon/wiki/Contributions).
+Ermon is open to contributions! [Check the related page at the Wiki of the project](https://github.com/amcajal/ermon/wiki/Page-005:-Contributions).
 
 [Back to index](#index)
 
@@ -88,7 +88,6 @@ Alberto Martin Cajal at:
 - Gmail: amartin.glimpse23@gmail.com (amartin DOT glimpse23 AT gmail DOT com)
 - [Blogspot](http://glimpse-23.blogspot.com.es/)
 - [LinkedIn](https://es.linkedin.com/in/alberto-martin-cajal-b0a63379)
-- Twitter: @amartin_g23
 
 [Back to index](#index)
 

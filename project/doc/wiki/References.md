@@ -42,6 +42,16 @@ ___
 **Tags**: midi, sequencer, online   
 **URL**: https://onlinesequencer.net 
 ___
+**id**: 7
+**Title**: How to compile a Java Swing app with Ant (1)
+**Tags**: how, compile, java, swing, ant, part, one
+**URL**: https://alvinalexander.com/blog/post/java/how-compile-java-program-application-ant-task-target
+___
+**id**: 8
+**Title**: How to compile a Java Swing app with Ant (2)
+**Tags**: how, compile, java, swing, ant, part, two
+**URL**: https://alvinalexander.com/blog/post/java/ant-build-script-for-java-application-fptracker-app
+___
 **id**: 18   
 **Title**: Git official webpage   
 **Tags**: Git, official, webpage, vcs,    

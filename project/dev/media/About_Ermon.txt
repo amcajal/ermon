@@ -1,0 +1,21 @@
+*********************************			
+ERMON		
+		                
+Ergonomic Monitor	
+*********************************
+
+Project Page: https://github.com/amcajal/ermon/
+
+User Manual: https://github.com/amcajal/ermon/wiki/User-Manual
+
+==================================
+
+ERMON is a simple application to perform healthy habits 
+while working with computers.
+ 
+Once started, the application notifies the user 
+from time to time to do basic activities called "events" 
+- like blink repeatedly, stretch shoulders or walk a little- 
+in order to reduce and prevent symptoms related with 
+the prolonged use of computers: dry eyes, back and wrists pain, 
+early fatigue, and so on.

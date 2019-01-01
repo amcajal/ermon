@@ -7,9 +7,6 @@
 *				Usage: $> cd <directory_with_xml_file>
 *				       $> ant <target>
 *
-*				The available target are the following ones:
-*				@TODO
-*
 * Contact:     Alberto Martin Cajal <amartin.glimpse23@gmail.com>
 * Website:     https://github.com/amcajal/ermon
 * Copyrigth:   GNU General Public License, version 3.0.
@@ -48,8 +45,7 @@
 	<target name="compile" depends="clean">
 		<mkdir dir="${classes.dir}"/>
         <mkdir dir="${classes.dir}/media"/>
-        <javac  source="1.8"
-                srcdir="${src.dir};${gui.dir}"
+        <javac  srcdir="${src.dir};${gui.dir}"
                 destdir="${classes.dir}"/>
         <copy todir="${classes.dir}/media">
 			<fileset dir="${media.dir}" casesensitive="no">

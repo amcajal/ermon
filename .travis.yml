@@ -33,8 +33,5 @@
 
 language: java
 
-install: 
-    - apt-get install ant
-
 script:
     - sh ./setup.sh

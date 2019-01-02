@@ -1,7 +1,8 @@
-![ermon_logo](https://github.com/amcajal/ermon/blob/master/project/doc/media/readme_ermon_logo.png)
+![ermon_readme_logo](https://github.com/amcajal/ermon/blob/master/project/doc/media/readme_ermon_logo.png)
 
-[![Version](https://img.shields.io/badge/Version-1.10.0-brightgreen.svg)
-[![GitHub license](https://img.shields.io/github/license/amcajal/gsvmind.svg)](https://github.com/amcajal/gsvmind/blob/master/LICENSE)
+[![Version]](https://img.shields.io/badge/Version-1.10.0-brightgreen.svg)
+[![Build Status](https://travis-ci.org/amcajal/ermon.svg?branch=master)](https://travis-ci.org/amcajal/ermon)
+[![GitHub license](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://github.com/amcajal/gsvmind/blob/master/LICENSE)
 
 
 ### Overview

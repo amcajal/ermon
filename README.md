@@ -53,7 +53,7 @@ $> git clone https://github.com/amcajal/ermon.git
 
 - Run setup.sh script. It will check for required tools, libraries, and will perform a full build of the application.
 ```
-$> sh setup.sh
+$> bash setup.sh
 ```
 
 - To manually build the application:

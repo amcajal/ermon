@@ -38,9 +38,9 @@
 
 print_info_message()
 {
-	echo "\n\n##############################"
+	echo "##############################"
 	echo "	$1"
-	echo "##############################\n\n"
+	echo "##############################"
 }
 
 print_error_message()
@@ -60,6 +60,7 @@ print_success_message()
 }
 
 ################################################################################
+set -o pipefail
 
 print_info_message "Ermon Project SETUP script"
 
@@ -71,14 +72,14 @@ rm setup_log.txt
 cd $SCRIPTS_DIR
 
 #CHECK FOR REQUIRED SOFTWARE
-sh check_req_software.sh 2>&1 | tee -ai $LOG_ABSPATH
+bash check_req_software.sh 2>&1 | tee -ai $LOG_ABSPATH
 
 ################################################################################
 # ATTEMPT CONTINUOUS INTEGRATION (CI) EXECUTION
 ################################################################################
 print_info_message "Running Continuous Integration (CI) script of Ermon..."
 
-sh CI.sh 2>&1 | tee -ai $LOG_ABSPATH
+bash CI.sh 2>&1 | tee -ai $LOG_ABSPATH
 
 if [ $? -ne 0 ]; then
     print_error_message "sh $SCRIPTS_DIR/CI.sh"

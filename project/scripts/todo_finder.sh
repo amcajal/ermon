@@ -19,7 +19,7 @@
 #
 #   License: GNU GPL v3.0
 #
-#   Copyright (C) 2018 Alberto Martin Cajal
+#   Copyright (C) 2018,2019 Alberto Martin Cajal
 #
 #   This file is part of Ermon
 #

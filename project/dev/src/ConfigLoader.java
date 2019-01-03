@@ -7,7 +7,10 @@
  * Java:        JDK 7
  * Contact:     Alberto Martin Cajal <amartin.glimpse23@gmail.com>
  * Website:     https://github.com/amcajal/ermon
- * Copyrigth:   GNU General Public License, version 3.0.
+ * License: GNU GPL v3.0
+ * Copyright (C) 2018,2019 Alberto Martin Cajal
+ *
+ * This file is part of ERMON.
  *
  * ERMON is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

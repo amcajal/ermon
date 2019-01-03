@@ -34,4 +34,4 @@
 language: java
 
 script:
-    - sh ./setup.sh
+    - bash ./setup.sh
